@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Enter Employee</title>
+<style type="text/css">
+body,td,th {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	color: #666;
+}
+body {
+	background-color: #D6D6D6;
+	background-image: url(Images/background.jpg);
+}
+#apDiv1 {
+	position:absolute;
+	width:60px;
+	height:27px;
+	z-index:1;
+	left: 203px;
+	top: 248px;
+}
+#apDiv2 {
+	position:absolute;
+	width:514px;
+	height:350px;
+	z-index:2;
+	left: 340px;
+	top: 132px;
+}
+#apDiv3 {
+	position:absolute;
+	width:390px;
+	height:50px;
+	z-index:3;
+	left: 44px;
+	top: 210px;
+}
+#apDiv4 {
+	position:absolute;
+	width:469px;
+	height:115px;
+	z-index:3;
+}
+#apDiv5 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:1;
+	left: 476px;
+	top: 259px;
+}
+</style>
+</head>
+
+<body>
+<img src="Images/title.jpg" width="1338" height="100" alt="Title" />
+<div id="apDiv5"><form id="form1" name="form1" method="post" action="Insert_Employee.php">
+  <table width="600" border="0">
+    <tr>
+      <td>First Name:</td>
+      <td><label for="F_Name"></label>
+      <input type="text" name="F_Name" id="textfield" /></td>
+    </tr>
+    <tr>
+      <td>Last Name:</td>
+      <td><label for="L_Name"></label>
+      <input type="text" name="L_Name" id="textfield2" /></td>
+    </tr>
+    <tr>
+      <td>National Identity Card No.</td>
+      <td><label for="NIC_No"></label>
+      <input type="text" name="NIC_No" id="textfield3" /></td>
+    </tr>
+    <tr>
+      <td>Address (No.)</td>
+      <td><label for="Address1"></label>
+      <input type="text" name="Address1" id="textfield4" /></td>
+    </tr>
+    <tr>
+      <td>Address (Street)</td>
+      <td><label for="Address2"></label>
+      <input type="text" name="Address2" id="textfield5" /></td>
+    </tr>
+    <tr>
+      <td>Address (City / Town)</td>
+      <td><label for="Address3"></label>
+      <input type="text" name="Address3" id="textfield6" /></td>
+    </tr>
+    <tr>
+      <td>Shift</td>
+      <td><label for="Shift"></label>
+      <input type="text" name="Shift" id="textfield7" /></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><input type="radio" name="E_Type" id="E_Type" value="Internal" />
+      <label for="E_Type">Internal Employee</label></td>
+      <td><input type="radio" name="E_Type" id="E_Type" value="External" />
+      <label for="E_Type">External Employee</label></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="2"><div id = "id1">
+        <div align="center">
+          <input type="submit" name="submit" id="submit" value="Submit" />
+          </div>
+      </div>        <div align="center"></div></td>
+    </tr>
+  </table>
+</form></div>
+</body>
+</html>

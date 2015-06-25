@@ -1,0 +1,10 @@
+staff1.php is for search regarding security personnel
+
+staff2.php is for search regarding maintainanace personnel
+
+staff3.php is regarding internal employees
+
+please add a colmn to external_employee table to specify weather 
+an employee belongs to security or maintenance.It should contain 
+2 values 's' & 'm'.Ade i couldn't check the code as php is not
+working on my lap.Sorry :( Let me know if there is an error.

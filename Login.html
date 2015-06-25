@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>LogIn Page</title>
+<style type="text/css">
+body,td,th {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	color: #666;
+}
+body {
+	background-image: url(Images/background.jpg);
+}
+#apDiv1 {
+	position:absolute;
+	width:322px;
+	height:115px;
+	z-index:1;
+	left: 294px;
+	top: 223px;
+}
+#apDiv2 {
+	position:absolute;
+	width:58px;
+	height:27px;
+	z-index:2;
+	left: 116px;
+	top: 95px;
+}
+</style>
+</head>
+
+<body>
+<img src="Images/title.jpg" width="1339" height="100" alt="Title" />
+<form id="form1" name="form1" method="post" action="index.html">
+  <div id="apDiv1">
+    <table>
+      <tr>
+        <td><label for="User_Name2">User Name:</label></td>
+        <td><input type="text" name="User_Name" id="User_Name2" /></td>
+      </tr>
+      <br />
+      <tr>
+        <td><label for="Password">Password: </label></td>
+        <td><input type="password" name="Password" id="Password" />
+        <div id="apDiv2"><input type="submit" name="Submit" id="Submit" value="Log In" /></div></td>
+      </tr>
+    </table>
+  </div>
+</form>
+</body>
+</html>

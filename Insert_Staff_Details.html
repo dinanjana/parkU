@@ -1,0 +1,55 @@
+<html>
+    <title>Enter Staff Vehicle Details</title>
+    
+<style type="text/css">
+body,td,th {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	color: #666;
+	font-weight: bold;
+}
+body {
+	background-image: url(Images/background.jpg);
+	background-repeat: no-repeat;
+}
+#apDiv1 {
+	position:absolute;
+	left:474px;
+	top:219px;
+	width:370px;
+	height:140px;
+	z-index:1;
+}
+#apDiv2 {
+	position:absolute;
+	left:702px;
+	top:221px;
+	width:212px;
+	height:135px;
+	z-index:2;
+}
+</style>
+
+<div id="apDiv1">
+  <p>Enter Staff ID:</p>
+  <p>Enter License Plate No:</p>
+</div>
+<div id="apDiv2">
+  <form name="form1" method="post" action="insert_staff.php">
+    <p>
+      <label>
+        <input type="text" name="staffid" id="staffid">
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="text" name="lic_no" id="lic_no">
+      </label>
+    </p>
+    <p>
+      <input type="submit" name="submit" id="submit" value="Submit">
+    </p>
+  </form>
+</div>
+<img src="Images/title.jpg" width="1347" height="100" alt="Title">
+</html>

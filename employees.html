@@ -1,0 +1,98 @@
+
+<html>
+    <title>Search Employees</title>
+    
+<style type="text/css">
+body,td,th {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	color: #666;
+	font-weight: bold;
+}
+body {
+	background-image: url(Images/background.jpg);
+	background-repeat: no-repeat;
+}
+#apDiv4 {
+	position:absolute;
+	left:347px;
+	top:201px;
+	width:216px;
+	height:110px;
+	z-index:1;
+}
+#apDiv1 {
+	position:absolute;
+	left:351px;
+	top:327px;
+	width:186px;
+	height:118px;
+	z-index:2;
+}
+#apDiv2 {
+	position:absolute;
+	left:354px;
+	top:456px;
+	width:204px;
+	height:184px;
+	z-index:3;
+}
+#apDiv3 {
+	position:absolute;
+	width:529px;
+	height:115px;
+	z-index:1;
+	left: 404px;
+	top: 167px;
+}
+#apDiv5 {
+	position:absolute;
+	width:479px;
+	height:115px;
+	z-index:2;
+	left: 406px;
+	top: 317px;
+}
+</style>
+
+<body>
+<img src="Images/title.jpg" width="1347" height="100" alt="Title">
+
+<div id="apDiv3"><form name="form1" method="post" action="staff_ID.php">
+  <table width="600" border="0">
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">Search By Staff Id</td>
+    </tr>
+    <tr>
+      <td align="center">Enter Staff Id:</td>
+      <td align="center"><label for="Staff_ID"></label>
+      <input type="text" name="Staff_ID" id="textfield"></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><input type="submit" name="Submit" id="Submit" value="Submit"></td>
+    </tr>
+  </table>
+</form></div>
+<div id="apDiv5">
+<form name="form2" method="post" action="Staff_Shift.php">
+  <table width="600" border="0">
+    <tr>
+      <td colspan="2" align="center">Search By Working Shift</td>
+    </tr>
+    <tr>
+      <td align="center">Enter The Shift:</td>
+      <td><label for="StaffID"></label>
+      <input type="text" name="Shift" id="textfield2"></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><input type="submit" name="button" id="button" value="Submit"></td>
+    </tr>
+  </table>
+</form></div>
+<p>
+</body>
+</html>

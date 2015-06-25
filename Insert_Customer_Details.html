@@ -1,0 +1,57 @@
+<html>
+    <title>Enter Customer Vehicle Details</title>
+<style type="text/css">
+body,td,th {
+	font-size: 18px;
+	color: #666;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+</style>
+<body bgcolor="#000000" background="Images/background.jpg"><img src="Images/title.jpg" width="1346" height="100" alt="Title">
+<form name="form1" method="post" action="insert_customer.php">
+<br><br><br>
+<table>
+  <tr>
+    <td>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="D_License_No">Driver License Number:</label>
+    </td>
+  <td>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input name="D_License_No" type="text" id="D_License_No" value="">
+  </td>
+  </tr>
+  <tr>
+    <td>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="D_License_No">Vehicle License Plate Number:</label>
+    </td>
+    <td>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input name="V_License_No" type="text" id="D_License_No" value="">
+    </td>
+    </tr>
+  </table>
+  <br>
+  <table>
+    <tr>
+    <td>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="radio" name="vehicle_type" id="Four Wheel" value="four_wheel">
+  <label for="Four Wheel">Four Wheel</label>
+  </td>
+  <td>
+  <input type="radio" name="vehicle_type" id="Two Wheel" value="two_wheel">
+  <label for="Two Wheel">Two wheel</label>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="submit" name="Park" id="Park" value="Submit">
+  </td>
+  </tr>
+  </table>
+</form>
+</html>
